@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/images2-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard | Kairós</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>K<span class="danger">airós</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active" data-section="dashboard">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" data-section="repertorio">
+                    <span class="material-icons-sharp">library_music</span>
+                    <h3>Repertório</h3>
+                </a>
+                <a href="#" data-section="blocos">
+                    <span class="material-icons-sharp">list_alt</span>
+                    <h3>Add Blocos</h3>
+                </a>
+                <a href="#" data-section="addmusic">
+                    <span class="material-icons-sharp">playlist_play</span>
+                    <h3>Add Músicas</h3>
+                </a>
+                <a href="#" data-section="listmusic">
+                    <span class="material-icons-sharp">playlist_add</span>
+                    <h3>Criar Escala</h3>
+                </a>
+                <a href="#" data-section="listrep">
+                    <span class="material-icons-sharp">library_books</span>
+                    <h3>Lista de Repertórios</h3>
+                    <!--<span class="message-count"></span>-->
+                </a>
+                <a href="#" data-section="suggestion">
+                    <span class="material-icons-sharp">library_add</span>
+                    <h3>Sugestões</h3>
+                </a>
+                <a href="#" data-section="statistics">
+                    <span class="material-icons-sharp">query_stats</span>
+                    <h3>Estatísticas</h3>
+                </a>
+                <a href="#" data-section="analytics">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <h3>Análises</h3>
+                </a>
+                <a href="#" data-section="settings">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Config</h3>
+                </a>
+                
+                <a href="#" id="logout-button">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <section id="dashboard" class="page active">
+                <h1>Dashboard</h1>
+                <!-- Dashboard -->
+                <div class="analyse">
+                    <div class="sales">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Músicas</h3>
+                                <h1 id="quantidade-musicas">0</h1> 
+                            </div>
+                            <div class="progresss">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+100%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visits">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Repertórios</h3>
+                                <h1 id="quantidade-repertorios">0</h1>
+                            </div>
+                            <div class="progresss">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+48%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searches">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Teste</h3>
+                                <h1>0</h1>
+                            </div>
+                            <div class="progresss">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+21%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Analyses -->
+
+                <!-- New Users Section -->
+                <div class="new-users">
+                    <h2>Integrantes</h2>
+                    <div class="user-list">
+                        <div class="user">
+                            <img src="images/profile-2.jpg">
+                            <h2>Stefano</h2>
+                            <p>Baixista</p>
+                        </div>
+                        <div class="user">
+                            <img src="images/profile-3.jpg">
+                            <h2>Ítalo</h2>
+                            <p>Vocalista</p>
+                        </div>
+                        <div class="user">
+                            <img src="images/profile-4.png">
+                            <h2>Galego</h2>
+                            <p>Baterista</p>
+                        </div>
+                        <div class="user">
+                            <img src="images/profile-5.jpg">
+                            <h2>Gutemberg</h2>
+                            <p>Guitarrista</p>
+                        </div>
+                        <div class="user">
+                            <img src="images/profile-6.jpg">
+                            <h2>Helô</h2>
+                            <p>Violonista</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recent-orders">
+                    <h2>Atualizações</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Músicas</th>
+                                <th>Estatísticas</th>
+                                <th>Análises</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#">Veja Mais</a>
+                </div>
+            </section>
+
+            <section id="repertorio" class="page">
+                <h1>Repertório</h1>
+                <div id="lista-repertorio">
+                    <input type="text" id="search-bar" placeholder="🔍 Buscar música..." onkeyup="filtrarMusicas()">
+                    <!--<h2>Lista de Músicas</h2> -->
+                        <!-- Modal de Confirmação -->
+                    <div id="modal-confirmacao" class="modal">
+                        <div class="modal-content">
+                            <p id="modal-texto"></p>
+                            <div class="modal-buttons">
+                                <button id="confirmar-excluir">Sim</button>
+                                <button id="cancelar-excluir">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal de Edição -->
+                    <div id="modal-editar" class="modal">
+                        <div class="modal-content">
+                            <h3>Editar Música</h3>
+                            <input type="text" id="edit-nome" placeholder="Nome da música">
+                            <input type="text" id="edit-cantor" placeholder="Cantor">
+                            <input type="text" id="edit-tom" placeholder="Tom da música">
+                            <input type="text" id="edit-youtube" placeholder="Link do YouTube">
+                            <div class="modal-buttons">
+                                <button id="salvar-edicao">Salvar</button>
+                                <button id="cancelar-edicao">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <ul></ul> <!-- Aqui será inserida a lista via JS -->
+                    <div id="paginacao" class="pagination-container"></div>
+                </div>
+            </section>  
+            
+            <section id="blocos" class="page">
+                <h1>Blocos</h1>
+                <!-- Modal para adicionar blocos -->
+                <div id="modal-blocos" class="modal">
+                    <div class="modal-content">
+                        <h2>Adicionar Bloco</h2>
+                        <label>Nome do Bloco*:</label>
+                        <input type="text" id="bloco-nome" placeholder="Digite o nome do bloco" required>
+                        <div class="modal-buttons">
+                            <button id="salvarBloco">Salvar</button>
+                            <button id="fecharModalBloco">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-excluir-bloco" class="modal">
+                    <div class="modal-content">
+                        <p id="modal-texto-bloco"></p>
+                        <div class="modal-buttons">
+                            <button id="confirmar-excluir-bloco">Sim</button>
+                            <button id="cancelar-excluir-bloco">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-editar-bloco" class="modal">
+                    <div class="modal-content">
+                        <h3>Editar Bloco</h3>
+                            <input type="text" id="edit-nome-bloco" placeholder="Digite o nome">
+                        <div class="modal-scroll"> 
+                            <div id="edit-lista-musicas-bloco"></div>
+                            <button id="adicionar-musica-bloco">Adicionar Música</button>
+                        </div>
+                        <div class="modal-buttons">
+                            <button id="salvar-edicao-bloco">Salvar</button>
+                            <button id="cancelar-edicao-bloco">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="blocos-header">               
+                    <button id="addBloco">Adicionar Bloco</button>
+                    <input type="text" id="search-bar-blocos" placeholder="🔍 Buscar bloco..." onkeyup="filtrarBlocos()">
+                </div> 
+                <div id="blocos-list">
+                    <ul></ul>
+                    <div id="paginacao-blocos" class="pagination-container"></div>
+                </div>
+                <div id="relatorio-modal-bloco" class="modal">
+                    <div class="modal-content">
+                        <span id="fechar-relatorio-bloco" class="close-modal">&times;</span>
+                            <div id="relatorio-container-bloco"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="addmusic" class="page">
+                <h1>Adicionar Música</h1>
+                <div id="form-container"></div>              
+            </section>  
+        
+            <section id="listmusic" class="page">
+                <h1>Repertórios</h1>
+                <form id="form-repertorio">
+                    <h2>Criar Novo Repertório</h2>
+                    <label for="nomeRepertorio">Nome do Repertório:</label>
+                    <input type="text" id="nomeRepertorio" required>
+                
+                    <label for="dataRepertorio">Data do Evento:</label>
+                    <input type="date" id="dataRepertorio" required>
+                
+                    <label for="musicasRepertorio">Adicionar Músicas:</label>
+                    <div id="musicas-container">
+                        <!-- campos de músicas -->
+                    </div>
+                    <button type="button" id="add-music">Adicionar Música</button>
+
+                    <button type="submit">Salvar Repertório</button>
+                </form>              
+            </section>
+
+            <!-- alertas -->
+            <div id="alerts-container">
+                <!-- Alerta para Adicionar Música -->
+                <div id="custom-alert-addmusic" class="custom-alert hidden">
+                    <div class="alert-content">
+                        <p id="alert-message-addmusic"></p>
+                        <button id="alert-ok-addmusic">OK</button>
+                    </div>
+                </div>   
+
+                <!-- Alerta para Criar Repertório -->
+                <div id="custom-alert-repertorio" class="custom-alert hidden">
+                    <div class="alert-content">
+                        <p id="alert-message-repertorio"></p>
+                        <button id="alert-ok-repertorio">OK</button>
+                    </div>
+                </div>
+
+                <!-- Alerta para Validar Nome e Cantor(Sugestoes) -->
+                <div id="custom-alert-sugestoes" class="custom-alert hidden">
+                    <div class="alert-content">
+                        <p id="alert-message-sugestoes"></p>
+                        <button id="alert-ok-sugestoes">OK</button>
+                    </div>
+                </div> 
+
+                <!-- Alerta para Validar Nome(blocos) -->
+                <div id="custom-alert-blocos" class="custom-alert hidden">
+                    <div class="alert-content">
+                        <p id="alert-message-blocos"></p>
+                        <button id="alert-ok-blocos">OK</button>
+                    </div>
+                </div>
+            </div>
+        
+            <section id="listrep" class="page">
+                <h1>Lista de Tocadas</h1>
+                <div id="lista-repertorios">
+                    <input type="text" id="search-bar-repertorios" placeholder="🔍 Buscar repertório..." onkeyup="filtrarRepertorios()">
+                    <ul></ul>
+                    <div id="paginacao-repertorios"></div>
+                </div>
+                <div id="relatorio-modal" class="modal">
+                    <div class="modal-content">
+                        <span id="fechar-relatorio-modal" class="close-modal">&times;</span>
+                        <div id="relatorio-container"></div>
+                    </div>
+                </div>                                                              
+                <!-- Modal de Confirmação de Exclusão do Repertório -->
+                <div id="modal-excluir-repertorio" class="modal">
+                    <div class="modal-content">
+                        <p id="modal-texto-repertorio"></p>
+                        <div class="modal-buttons">
+                            <button id="confirmar-exclusao-repertorio">Sim</button>
+                            <button id="cancelar-exclusao-repertorio">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal de Edição do Repertório -->
+                <div id="modal-editar-repertorio" class="modal">
+                    <div class="modal-content">
+                        <h3>Editar Repertório</h3>
+                        <div class="modal-scroll">
+                            <input type="text" id="edit-nome-repertorio"placeholder="Digite o nome">
+
+                            <input type="date" id="edit-data-repertorio">
+
+                            <textarea id="edit-observacoes" rows="4" placeholder="Digite alguma observação..."></textarea>
+
+                            <div id="edit-lista-musicas"></div>
+                            <button id="adicionar-musica">Adicionar Música</button>
+                        </div>
+                        <div class="modal-buttons">
+                            <button id="salvar-edicao-repertorio">Salvar</button>
+                            <button id="cancelar-edicao-repertorio">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="suggestion" class="page">
+                <h1>Sugestões</h1>
+                <!-- Modal para adicionar sugestões -->
+                <div id="modal-sugestao" class="modal">
+                    <div class="modal-content">
+                        <h2>Adicionar Sugestão</h2>
+                        <label>Nome da Música*:</label>
+                        <input type="text" id="sugestao-nome" placeholder="Digite o nome da música" required>
+
+                        <label>Cantor/Banda*:</label>
+                        <input type="text" id="sugestao-cantor" placeholder="Digite o cantor ou banda" required>
+
+                        <label>Tom (opcional):</label>
+                        <input type="text" id="sugestao-tom" placeholder="Digite o tom da música">
+
+                        <label>Link do YouTube (opcional):</label>
+                        <input type="text" id="sugestao-youtube" placeholder="Cole o link do YouTube">
+
+                        <div class="modal-buttons">
+                            <button id="salvarSugestao">Salvar</button>
+                            <button id="fecharModalSugestao">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botão para abrir o modal -->
+                <button id="addSuggestion">Adicionar Sugestão</button>
+                <!-- Lista de sugestões -->
+                <div id="suggestion-list">
+                    <ul></ul>
+                    <div id="paginacao-sugestoes" class="pagination-container"></div>
+                </div>
+            </section>
+            
+            <section id="statistics" class="page">
+                <h1>Estatísticas</h1>
+                <div id="statistics-list">
+                    <input type="text" id="search-bar-statistic" placeholder="🔍 Buscar estatísticas..." onkeyup="filtrarEstatisticas()">
+                    <ul></ul>
+                    <div id="paginacao-statistics" class="pagination-container"></div>
+                </div>
+                <div id="relatorio-modal-statistics" class="modal">
+                    <div class="modal-content">
+                        <span id="fechar-relatorio-modal-statistic" class="close-modal">&times;</span>
+                        <div id="relatorio-container-statistic"></div>
+                    </div>
+                </div> 
+            </section>
+        
+            <section id="analytics" class="page">
+                <h1>Aproveitamento</h1>
+                <!-- Lista de analises -->
+                <div id="analytics-list">
+                    <ul></ul>
+                    <div id="paginacao-analytics" class="pagination-container"></div>
+                </div>
+            </section>
+
+            <section id="settings" class="page">
+                <h1>Config</h1>
+                <p>Configurações do sistema...</p>
+            </section>
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Kairós</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile-1.png">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>Kairós</h2>
+                    <p>Helô Fullstack Developer</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Lembretes</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Ensaios</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Escalas</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Add Lembrete</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+    <script src="/assets/js/logout.js"></script>
+</body>
+
+</html>

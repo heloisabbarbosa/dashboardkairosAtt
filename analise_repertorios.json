@@ -1,0 +1,510 @@
+{
+    "estatisticaGeral": {
+        "totalRepertorios": 41,
+        "totalMusicas": 182,
+        "totalRepetidas": 20,
+        "taxaRepeticao": "11.0%",
+        "statusGeral": "Variado"
+    },
+    "analiseIndividual": [
+        {
+            "nome": "LOUVOR DOMINGO 04/08/24",
+            "data": "2024-08-04",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "CULTO DOS JOVENS 10/08/2024",
+            "data": "2024-08-10",
+            "totalMusicas": 5,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DA SANTA CEIA 15/08/24",
+            "data": "2024-08-15",
+            "totalMusicas": 7,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO A NOITE 18/08/24",
+            "data": "2024-08-18",
+            "totalMusicas": 4,
+            "repetidas": 2,
+            "taxaRepeticao": "50.0%",
+            "status": "Moderado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Canção ao Cordeiro - Gabriel Guedes",
+                    "origem": [
+                        "LOUVOR DA SANTA CEIA 15/08/24"
+                    ]
+                },
+                {
+                    "nome": "Tens todos os meus Dias - Gabriel Guedes",
+                    "origem": [
+                        "CULTO DOS JOVENS 10/08/2024"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR DOMINGO A NOITE 08/09/24",
+            "data": "2024-09-08",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO MANHÃ 08/09/24",
+            "data": "2024-09-08",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO MANHÃ HORA DA CEIA",
+            "data": "2024-09-08",
+            "totalMusicas": 3,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "REPERTÓRIO DOMINGO 01/09/24",
+            "data": "2024-09-19",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR 10/10/24",
+            "data": "2024-10-10",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠ LOUVOR 13/10/24 SANTA CEIA",
+            "data": "2024-10-13",
+            "totalMusicas": 8,
+            "repetidas": 1,
+            "taxaRepeticao": "12.5%",
+            "status": "Variado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "A Ele a Glória (Porque dele por ele",
+                    "origem": [
+                        "LOUVOR 10/10/24"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "⚠ LOUVOR DOMINGO A NOITE 13/10/24 ⚠",
+            "data": "2024-10-13",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "REPERTÓRIO DA FESTIVIDADE DOS JOVENS",
+            "data": "2024-10-14",
+            "totalMusicas": 6,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠ LOUVOR VIGÍLIA",
+            "data": "2024-11-01",
+            "totalMusicas": 5,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "REPERTÓRIO",
+            "data": "2024-11-05",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠ REPERTÓRIO FESTIVIDADE DAS CRIANÇAS ⚠",
+            "data": "2024-11-15",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠ REPERTÓRIO FESTIVIDADE DOS ADOLESCENTES ⚠",
+            "data": "2024-11-29",
+            "totalMusicas": 6,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO A NOITE",
+            "data": "2024-12-15",
+            "totalMusicas": 3,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠ LOUVOR DOMINGO A NOITE",
+            "data": "2025-01-05",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠ LOUVOR DOMINGO A NOITE  ⚠",
+            "data": "2025-01-12",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR QUINTA FEIRA 13/02/25",
+            "data": "2025-02-13",
+            "totalMusicas": 4,
+            "repetidas": 2,
+            "taxaRepeticao": "50.0%",
+            "status": "Moderado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Jesus em tua presença + Não Há Deus maior",
+                    "origem": [
+                        "⚠ LOUVOR DOMINGO A NOITE"
+                    ]
+                },
+                {
+                    "nome": "Canção ao Cordeiro",
+                    "origem": [
+                        "⚠ LOUVOR DOMINGO A NOITE"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "⚠ REPERTÓRIO DOMINGO A NOITE ⚠",
+            "data": "2025-02-16",
+            "totalMusicas": 4,
+            "repetidas": 1,
+            "taxaRepeticao": "25.0%",
+            "status": "Moderado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Eu Vou seguir com Fé - Kleber Lucas",
+                    "origem": [
+                        "⚠ LOUVOR DOMINGO A NOITE  ⚠"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "⚠ LOUVOR QUINTA FEIRA DOUTRINA",
+            "data": "2025-02-27",
+            "totalMusicas": 3,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR QUINTA FEIRA 13/03 SANTA CEIA",
+            "data": "2025-03-13",
+            "totalMusicas": 7,
+            "repetidas": 3,
+            "taxaRepeticao": "42.9%",
+            "status": "Moderado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Te Agradeço Deus - Kleber Lucas",
+                    "origem": [
+                        "⚠ LOUVOR QUINTA FEIRA DOUTRINA"
+                    ]
+                },
+                {
+                    "nome": "Digno é o Senhor - Fanuel (C)",
+                    "origem": [
+                        "⚠ REPERTÓRIO DOMINGO A NOITE ⚠"
+                    ]
+                },
+                {
+                    "nome": "Entre Nós Vive Outra Vez - Sérgio Lopes (Am)",
+                    "origem": [
+                        "⚠ LOUVOR QUINTA FEIRA DOUTRINA"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR SÁBADO VIGÍLIA 15/03",
+            "data": "2025-03-15",
+            "totalMusicas": 5,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO NOITE",
+            "data": "2025-03-16",
+            "totalMusicas": 5,
+            "repetidas": 4,
+            "taxaRepeticao": "80.0%",
+            "status": "Repetitivo",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Eu Te Louvarei, Te Glorificarei",
+                    "origem": [
+                        "LOUVOR SÁBADO VIGÍLIA 15/03"
+                    ]
+                },
+                {
+                    "nome": "Acima das Estrelas",
+                    "origem": [
+                        "LOUVOR SÁBADO VIGÍLIA 15/03"
+                    ]
+                },
+                {
+                    "nome": "A Grande Viagem",
+                    "origem": [
+                        "LOUVOR SÁBADO VIGÍLIA 15/03"
+                    ]
+                },
+                {
+                    "nome": "A Minha Vida é do Mestre",
+                    "origem": [
+                        "LOUVOR SÁBADO VIGÍLIA 15/03"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR DOMINGO MANHÃ 16/03",
+            "data": "2025-03-16",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "COMUNITÁRIA | SEGUNDA IGREJA",
+            "data": "2025-03-23",
+            "totalMusicas": 4,
+            "repetidas": 4,
+            "taxaRepeticao": "100.0%",
+            "status": "Repetitivo",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Espírito Enche a Minha Vida - Quatro por Um",
+                    "origem": [
+                        "LOUVOR DOMINGO MANHÃ 16/03"
+                    ]
+                },
+                {
+                    "nome": "Vim para Adorar-te - Quatro por Um",
+                    "origem": [
+                        "LOUVOR DOMINGO MANHÃ 16/03"
+                    ]
+                },
+                {
+                    "nome": "Majestoso - Quatro por Um",
+                    "origem": [
+                        "LOUVOR DOMINGO MANHÃ 16/03"
+                    ]
+                },
+                {
+                    "nome": "Digno é o Senhor - Fanuel Palácio",
+                    "origem": [
+                        "LOUVOR DOMINGO MANHÃ 16/03"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR QUINTA DOUTRINA 27/03 NOITE",
+            "data": "2025-03-27",
+            "totalMusicas": 3,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "⚠️ LOUVOR DOMINGO 30/03 NOITE",
+            "data": "2025-03-30",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR 08/04 IGREJA",
+            "data": "2025-04-08",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "Louvor - Quinta Feira Doutrina",
+            "data": "2025-04-10",
+            "totalMusicas": 3,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO 13/04",
+            "data": "2025-04-13",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR QUINTA 24/04",
+            "data": "2025-04-24",
+            "totalMusicas": 3,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO 27/04",
+            "data": "2025-04-27",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR ASSEMBLEIA DE DEUS 04/05",
+            "data": "2025-05-04",
+            "totalMusicas": 4,
+            "repetidas": 1,
+            "taxaRepeticao": "25.0%",
+            "status": "Moderado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "A Grande Viagem -  (Am)",
+                    "origem": [
+                        "LOUVOR DOMINGO 27/04"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR QUINTA FEIRA SANTA CEIA 08/11",
+            "data": "2025-05-08",
+            "totalMusicas": 8,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR DOMINGO A NOITE 11/05",
+            "data": "2025-05-11",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR QUINTA FEIRA DOUTRINA 22/05",
+            "data": "2025-05-22",
+            "totalMusicas": 3,
+            "repetidas": 1,
+            "taxaRepeticao": "33.3%",
+            "status": "Moderado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Ao Único que é Digno de receber -  (C)",
+                    "origem": [
+                        "LOUVOR DOMINGO A NOITE 11/05"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR DOMINGO 25/05",
+            "data": "2025-05-25",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        },
+        {
+            "nome": "LOUVOR SANTA CEIA QUINTA 05/06",
+            "data": "2025-06-05",
+            "totalMusicas": 7,
+            "repetidas": 1,
+            "taxaRepeticao": "14.3%",
+            "status": "Variado",
+            "repetidasDetalhes": [
+                {
+                    "nome": "Ao Único que é Digno de receber -  (C)",
+                    "origem": [
+                        "LOUVOR QUINTA FEIRA DOUTRINA 22/05"
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "LOUVOR DOMINGO A NOITE 08/06",
+            "data": "2025-06-08",
+            "totalMusicas": 4,
+            "repetidas": 0,
+            "taxaRepeticao": "0.0%",
+            "status": "Variado",
+            "repetidasDetalhes": []
+        }
+    ]
+}
